@@ -19,9 +19,10 @@ These instructions are based on the MinGW compiler suite for Windows, but others
 - mingw-gdb-bin
 **Install CMake**
 **Install MSYS2 console**
-**Downlad wxWidgets to a folder** (for example c:\wxWidgets 3.1.4)
+**Downlad wxWidgets to a folder** (for example c:\wxWidgets 3.1.4)**
 
-Open MSYS2 console and make sure the MinGW\bin and CMake\bin folders are in the PATH. For example:
+**Open MSYS2 console and make sure the MinGW\bin and CMake\bin folders are in the PATH. **
+For example:
 ```
 export PATH=$PATH:/c/Program\ Files/CMake/bin
 export PATH=$PATH:/c/MinGW/bin
