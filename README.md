@@ -2,6 +2,8 @@
 
 The purpose of this repo is to provide an easy cmake template for cross platform c++ projects with versions 3.1+ of wxWdigets, and with opengl support enabled.
 
+Here is a more detailed how-to: https://kledward.wordpress.com/c-cross-platform-gui-dev-setup/
+
 Provided under the GNU 3.0 General Public License. 
 No warranty is expressed or implied, including suitability for any purpose.
 
