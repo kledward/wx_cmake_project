@@ -12,6 +12,7 @@ Incorporates some logic from findwxwidgets.cmake. I experienced issues using fin
 These instructions are based on the MinGW compiler suite for Windows, but others are avilable.
 
 **Install mingw-get and use it to install the following packages**
+www.mingw.org/wiki/Getting_Started
 - mingw-binutils-bin
 - ming32-make-bin
 - mingw-gcc-bin
@@ -19,10 +20,15 @@ These instructions are based on the MinGW compiler suite for Windows, but others
 - mingw-gdb-bin
 
 **Install CMake**
+https://cmake.org/download/
 
 **Install MSYS2 console**
+https://www.msys2.org/wiki/MSYS2-installation/
 
-**Downlad wxWidgets to a folder** (for example c:\wxWidgets 3.1.4)**
+**Downlad wxWidgets** 
+Download source code from here: https://www.wxwidgets.org/downloads/
+
+Extract to a folder, for example c:\wxWidgets 3.1.4
 
 **Open MSYS2 console and make sure the MinGW\bin and CMake\bin folders are in the PATH. **
 For example:
