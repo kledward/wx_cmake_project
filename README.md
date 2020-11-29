@@ -34,7 +34,7 @@ Download source code from here: https://www.wxwidgets.org/downloads/
 
 Extract to a folder, for example c:\wxWidgets 3.1.4
 
-**Open MSYS2 console and make sure the MinGW\bin and CMake\bin folders are in the PATH. **
+**Open MSYS2 console and make sure the MinGW\bin and CMake\bin folders are in the PATH**
 
 For example:
 ```
