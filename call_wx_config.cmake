@@ -19,13 +19,13 @@
 #
 #
 # Here are the high level steps:
-#	- (if msys=ON) verify wx_build_dir and wx_root_dir are specified
-#   - (if msys=ON) convert wx_build_dir and wx_root_dir to linux style paths for use with wx-config
-#   - call wx-config, or wx_build_dir\wx-config if wx_build_dir specified
+# 	- (if msys=ON) verify wx_build_dir and wx_root_dir are specified
+#	- (if msys=ON) convert wx_build_dir and wx_root_dir to linux style paths for use with wx-config
+# 	- call wx-config, or wx_build_dir\wx-config if wx_build_dir specified
 #	- convert a few flags which take an argument after a space back into a single flag
-#   - sort all flags in wx-config output into wx_cxx_flags, wx_include_dirs, wx_libs, wx_defines
-#   - (if msys=ON) convert all instances of wx_build_dir/wx_root_dir in wx_libs and and wx_include_dirs to Windows style paths
-#   - set all target options with wx_cxx_flags, wx_include_dirs, wx_libs, wx_defines
+# 	- sort all flags in wx-config output into wx_cxx_flags, wx_include_dirs, wx_libs, wx_defines
+# 	- (if msys=ON) convert all instances of wx_build_dir/wx_root_dir in wx_libs and and wx_include_dirs to Windows style paths
+# 	- set all target options with wx_cxx_flags, wx_include_dirs, wx_libs, wx_defines
 #
 # In Windows, this must be run from a MinTTY/msys2 type shell which can run wx-config (a shell script).
 # Also, msys=ON, and wx_build_dir/wx_root_dir must be specified when running this in Windows. On other platforms 
