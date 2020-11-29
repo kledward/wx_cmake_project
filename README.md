@@ -71,6 +71,7 @@ cmake --build .
 ```
 
 **Done**
+
 Now, further calls to cmake --build . inside build-release and build-debug can be made from a regular windows shell, for instance Powershell in VS Code.
 We only need to run cmake configure in these directories from a cygwin/msys style shell due to wx-config being a shell script.
 
