@@ -6,14 +6,14 @@
 # Description: call_wx_config macro
 #
 # 
-# Command line arguments needed by call_wx_config
+# Command line arguments / CACHE variables needed by call_wx_config
 #   -Dwx_root_dir - needed when msys=ON, this is the root directory were wx-widgets was unzipped
 #
 #   -Dwx_build_dir - needed if wx-config does not live in $PATH or to specify a specific build.  
 #                    set to the directory where wxwidgets was built and where wx-config lives
 #
 #   -Dmsys=(ON/OFF) - default OFF. set this to ON if running in windows. In windows, cmake should be
-#                     run from a be run from a msys2/cygwin shell, where it calls wx-config (a shell script)
+#                     run from a  msys2/MinTTY type shell, where it calls wx-config (a shell script)
 #
 #   -Dwx_config_args - this is --gl-libs;--libs;--cxxflags by default
 #
@@ -28,7 +28,7 @@
 #   - set all target options with wx_cxx_flags, wx_include_dirs, wx_libs, wx_defines
 #
 # * = only done when msys=ON.  
-# In Windows, this must be run from a cygwin/msys type shell which can run wx-config (a shell script).
+# In Windows, this must be run from a MinTTY/msys2 type shell which can run wx-config (a shell script).
 # Also, msys=ON, and wx_build_dir/wx_root_dir must be specified when running this in Windows. On other platforms 
 # possible to leave them off if wx-config is in the PATH
 #
